@@ -1,9 +1,10 @@
 ﻿Module Module1
 
     Sub Main()
-        'not the best example on using console with loops but it works
+        'not the best example of using console with loops but it works
         Console.SetWindowSize(90, 30)
-        Console.Title = "Basic translater"
+        Console.ForegroundColor = ConsoleColor.Green 'Hacker green activated
+        Console.Title = "Basic console translater- Created by GH: Material Design"
         Dim opts As Integer 'only expecting a numerical value thus set as integer
         Dim word As String
         Dim English() As String = {"hello", "goodbye", "you", "and", "say", "my", "but", "name", "is"} 'english word table
